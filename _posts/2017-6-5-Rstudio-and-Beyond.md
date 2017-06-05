@@ -26,4 +26,4 @@ Including Plots
 
 You can also embed plots, for example:
 
-![](/figure-markdown_github/pressure-1.png)
+![](/images/pressure-1.png)
