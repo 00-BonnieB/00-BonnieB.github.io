@@ -7,6 +7,9 @@ catergory: Migration
 tags: England&Wales 2011 SMS
 ---
 
+The first step understanding migration is getting a sense of what is 'normal'.
+To do this I am looking at several measures, including turn (after [Dennett & Stillwell, 2008](https://www.researchonline.org.uk/sds/search/download.do%3Bjsessionid=B8F5D490363B64052BC2400530827BDB?ref=A20797)).
+
 Defintions:
 Outliers are defined as any values that lie beyond 1.3 of the IQR 
 Turn = In+Out/(Total Pop) Churn = In+Out+Within/(Total Pop)
