@@ -3,8 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-I like understaning stuff, especially if this involves drinking coffee in the process.
+I like understanding stuff, especially if this is about London and involves coffee drinking.
 
 ### More Information
 
