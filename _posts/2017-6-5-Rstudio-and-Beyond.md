@@ -1,3 +1,13 @@
+---
+layout: post
+title: "RStudio to the Internets"
+author: "Bonnie Buyuklieva"
+date: "5 June 2017"
+catergory: sharing
+tags: hopeThisWorks experimenting
+---
+
+
 R Markdown
 ----------
 
