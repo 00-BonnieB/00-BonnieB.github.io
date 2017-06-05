@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-"Nothing in life is to be feared; it is only to be understood." 
-- Marie Curie
+I like understaning stuff, especially if this involves drinking coffee in the process.
 
 ### More Information
 
@@ -13,4 +12,4 @@ My PhD will look at residential mobility and housing. The system of residential 
 
 ### Contact me
 
-[boyana.buyuklieva.14@ucl.ac.uk](mailto:boyana.buyuklieva.14@ucl.ac.uk)
+[boyana.buyuklieva.14@ucl.ac.uk](mailto:cat.14@ucl.ac.uk)
