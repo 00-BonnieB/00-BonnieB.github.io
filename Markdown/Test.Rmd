@@ -1,0 +1,28 @@
+---
+layout: post
+title: "RStudio to the Internets"
+author: "Bonnie Buyuklieva"
+date: "5 June 2017"
+tags: hopeThisWorks experimenting
+output: 
+  md_document:
+    variant: markdown_github
+---
+
+
+## R Markdown
+
+This is my text
+
+```{r cars}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
