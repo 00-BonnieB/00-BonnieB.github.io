@@ -1,7 +1,13 @@
-R Markdown
-----------
+---
+layout: post
+title: RStudio to the Internets
+author: Bonnie Buyuklieva
+date: 5 June 2017
+catergory: sharing
+tags: hopeThisWorks experimenting
+---
 
-This is my text
+This is a test of getting code from RStudio to my blog manually.
 
 ``` r
 summary(cars)
@@ -20,6 +26,4 @@ Including Plots
 
 You can also embed plots, for example:
 
-    ## Warning: package 'ggplot2' was built under R version 3.3.3
-
-![](Test_files/figure-markdown_github/pressure-1.png)
+![](/images/pressure-1.png)
