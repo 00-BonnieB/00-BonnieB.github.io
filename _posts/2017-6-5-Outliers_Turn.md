@@ -22,7 +22,7 @@ Turn
     ##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
     ##  0.0390  0.0700  0.0870  0.2779  0.1090 54.1600
 
-![](Outliers_TurnChurn_files/figure-markdown_github/HistoT-1.png)
+![](images/HistoT-1.png)
 
 Outliers
 --------
