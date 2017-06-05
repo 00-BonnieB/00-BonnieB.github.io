@@ -7,11 +7,7 @@ catergory: sharing
 tags: hopeThisWorks experimenting
 ---
 
-
-R Markdown
-----------
-
-This is my text
+This is a test of getting code from RStudio to my blog manually.
 
 ``` r
 summary(cars)
