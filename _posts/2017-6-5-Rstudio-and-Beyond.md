@@ -30,6 +30,4 @@ Including Plots
 
 You can also embed plots, for example:
 
-    ## Warning: package 'ggplot2' was built under R version 3.3.3
-
-![](Test_files/figure-markdown_github/pressure-1.png)
+![](figure-markdown_github/pressure-1.png)
