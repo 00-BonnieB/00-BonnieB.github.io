@@ -1,6 +1,8 @@
 # Bonnie Goes Internet 
 
 ![](https://media.giphy.com/media/RxR1KghIie2iI/giphy.gif)
+![](https://media.giphy.com/media/Jd4274USmbave/giphy.gif)
+
 
 
 
