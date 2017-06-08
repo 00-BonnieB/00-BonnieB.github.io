@@ -1,6 +1,6 @@
 # Bonnie Goes Internet 
 
-![https://giphy.com/gifs/vintage-90s-internet-RxR1KghIie2iI/tile)
+![http://68.media.tumblr.com/tumblr_m9ql3fLJpq1qd2g3i.gif)
 
 
 
