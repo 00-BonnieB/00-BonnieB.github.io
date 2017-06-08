@@ -1,6 +1,6 @@
 # Bonnie Goes Internet 
 
-![](https://giphy.com/gifs/vintage-90s-internet-RxR1KghIie2iI/fullscreen)
+![](https://giphy.com/gifs/vintage-90s-internet-RxR1KghIie2iI/tile)
 
 
 
