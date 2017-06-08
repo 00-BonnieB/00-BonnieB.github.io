@@ -1,6 +1,6 @@
 # Bonnie Goes Internet 
 
-![http://68.media.tumblr.com/tumblr_m9ql3fLJpq1qd2g3i.gif)
+![https://media.giphy.com/media/RxR1KghIie2iI/giphy.gif)
 
 
 
