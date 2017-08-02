@@ -1,10 +1,10 @@
-------------------------------------------------------------------------
+---
+title: Chi-square test for independence
+---
 
 <span style="color:blue">Mode Vector</span>
--------------------------------------------
-
 <center>
-![](images/WhyMode.png)
+![](/images/mode.png)
 </center>
 <p>
 Mode gives the most common type category per move. Hence I assyme it is representative.
@@ -15,15 +15,15 @@ From the Detailed Mode Vector that contains the I take only the modes for every 
 <p>
 Below you can see how complete these mode vectors are:
 </p>
-![](images/Sparcity%20of%20Mode%20vector%20data.png)
+![](/images/Sparcity%20of%20Mode%20vector%20data.png)
 <p>
 **NB!** Age sex table is split into most common age group for males and females.
 </p>
 
-------------------------------------------------------------------------
+
 
 <span style="color:blue">Chi-square test for independence </span>
------------------------------------------------------------------
+
 
 H<sub>0</sub> : Family and tenure ~~and gender~~ are independent.
 Significance level: *α* = 0.05 = 5%
@@ -173,12 +173,12 @@ SanityCheck_pVal
 
     ## [1] 0
 
-![](170706_SupMeet_files/figure-markdown_github/density%20graph-1.png)
+![](/images/density%20graph-1.png)
 
-------------------------------------------------------------------------
+
 
 <span style="color:blue">Data</span>
-------------------------------------
+
 
 <p>
 **Data**: Using the ONS 2011 SMS dataset at LA level.
@@ -196,25 +196,24 @@ First, I do a bulk download, then sort through the csv to recognise the begining
 Mode Vector
 </h3>
 </center>
-![](images/mode_Vect_str.png)
+![](/images/mode_Vect_str.png)
 
 <center>
 <h3>
 Family Status
 </h3>
 </center>
-![](images/Family.png)
+![](/images/Family.png)
 <center>
 <h3>
 Tenure
 </h3>
 </center>
-![](images/Tenure.png)
+![](/images/Tenure.png)
 <center>
 <h3>
 Age divided by Gender
 </h3>
 </center>
-![](images/Capture.png)
+![](/images/Capture.png)
 
-------------------------------------------------------------------------
