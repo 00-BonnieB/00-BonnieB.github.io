@@ -1,5 +1,5 @@
 ---
-title: CATS!! Chi-square test for independence
+title: Chi-square test for independence
 ---
 
 <span style="color:blue">Mode Vector</span>

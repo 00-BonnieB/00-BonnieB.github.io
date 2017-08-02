@@ -1,5 +1,6 @@
-Testing Shiny
--------------
+---
+title: Testing Shiny
+---
 
 ``` r
 library(ggplot2)
@@ -10,26 +11,6 @@ library(ggplot2)
 ``` r
 library(plotly)
 ```
-
-    ## Warning: package 'plotly' was built under R version 3.3.3
-
-    ## Warning: Installed Rcpp (0.12.10) different from Rcpp used to build dplyr (0.12.11).
-    ## Please reinstall dplyr to avoid random crashes or undefined behavior.
-
-    ## 
-    ## Attaching package: 'plotly'
-
-    ## The following object is masked from 'package:ggplot2':
-    ## 
-    ##     last_plot
-
-    ## The following object is masked from 'package:stats':
-    ## 
-    ##     filter
-
-    ## The following object is masked from 'package:graphics':
-    ## 
-    ##     layout
 
 ``` r
 p <- ggplot(data = diamonds, aes(x = cut, fill = clarity)) +
