@@ -1,0 +1,22 @@
+---
+title: "Test Embed Html"
+author: "Bonnie Buyuklieva"
+date: "13 August 2017"
+output: 
+  md_document:
+    variant: markdown_github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Some random text. 
+Interaction here! Bla bla
+Mango trees are !purple.
+
+
+```{r includeHtml}
+htmltools::includeHTML("newcastle-walk-plot - Copy.html")
+```
+
