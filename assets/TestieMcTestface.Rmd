@@ -7,14 +7,10 @@ output:
     variant: markdown_github
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## Some random text. 
-Interaction here! Bla bla
 Mango trees are !purple.
 
+<<insertHTML:[newcastle-walk-plot - Copy.html]
 
 ```{r includeHtml}
 htmltools::includeHTML("newcastle-walk-plot - Copy.html")
