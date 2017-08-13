@@ -1,9 +1,12 @@
 Some random text.
 -----------------
 
-Interaction here! Bla bla Mango trees are !purple.
+Mango trees are !purple.
 
-``` r
+&lt;<insertHTML:[newcastle-walk-plot - Copy.html]
+
+
+```r
 htmltools::includeHTML("newcastle-walk-plot - Copy.html")
 ```
 
