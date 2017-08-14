@@ -18,16 +18,31 @@ If this works, things might get very fun.
 
 ```{r testingTiles, echo=FALSE, warning=FALSE}
 library(leaflet)
-m <- leaflet() %>% setView(lat=51.522, lng=-0.136,  zoom = 15)
-m <- addMarkers(m, lat=51.522, lng=-0.136,  popup="CASA! Woohoo!")
-m %>% addTiles()
+library(sp)
+
+m <- leaflet() %>% setView(lat=51.522, lng=-0.136,  zoom = 15) 
+m <- addMarkers(m, lat=51.522, lng=-0.136,  popup="CASA! Woohoo!") 
+
+
+#ridiculously satisfing waste of time
+
+t = seq(0,60,len=100) # lat/long of heart centre: 8.618008, -0.259359
+x = -.01*(-t^2+40*t+1200)*sin(pi*t/180)
+y = .01*(-t^2+40*t+1200)*cos(pi*t/180)
+Sr1 = Polygon(cbind(c(x,-x), c(y,y)))
+Srs1 = Polygons(list(Sr1), "s1")
+SpP = SpatialPolygons(list(Srs1))
+
+
+
+m  %>% addPolygons(data = SpP) %>% addTiles() %>% addPolygons(data = SpP)
 
 ```
 
 ```{r Stamen, echo=FALSE, warning=FALSE}
-m %>% addProviderTiles(providers$Stamen.Toner)
+m %>% addProviderTiles(providers$Stamen.Toner) %>% addPolygons(data = SpP)
 ```
 
 ```{r CartoDb, echo=FALSE, warning=FALSE}
-m %>% addProviderTiles(providers$CartoDB.Positron)
+m %>% addProviderTiles(providers$CartoDB.Positron) %>% addPolygons(data = SpP)
 ```
