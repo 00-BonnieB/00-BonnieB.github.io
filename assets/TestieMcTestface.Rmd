@@ -2,9 +2,9 @@
 title: "Test Embed Html"
 author: "Bonnie Buyuklieva"
 date: "13 August 2017"
-output: 
-  md_document:
-    variant: markdown_github
+output: html_document
+#  md_document:
+#    variant: markdown_github
 ---
 
 ## Some random text. 

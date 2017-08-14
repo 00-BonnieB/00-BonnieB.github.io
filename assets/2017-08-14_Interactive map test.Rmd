@@ -1,0 +1,33 @@
+---
+title: "Leaflet beyond the desktop"
+author: "Bonnie Buyuklieva"
+date: "14 August 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Interactive maps
+
+This is is a test of using leaflet with different map tiles (OSM,Stamen,CartoDB).
+If this works, things might get very fun. 
+
+
+
+```{r testingTiles, echo=FALSE, warning=FALSE}
+library(leaflet)
+m <- leaflet() %>% setView(lat=51.522, lng=-0.136,  zoom = 15)
+m <- addMarkers(m, lat=51.522, lng=-0.136,  popup="CASA! Woohoo!")
+m %>% addTiles()
+
+```
+
+```{r Stamen, echo=FALSE, warning=FALSE}
+m %>% addProviderTiles(providers$Stamen.Toner)
+```
+
+```{r CartoDb, echo=FALSE, warning=FALSE}
+m %>% addProviderTiles(providers$CartoDB.Positron)
+```
