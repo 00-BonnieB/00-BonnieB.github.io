@@ -5,9 +5,6 @@ layout: default
 
   {% for asset in site.assets %}
     <article class="asset">
-
-      <h1><a href="{{ site.baseurl }}{{ asset.url }}">{{ asset.title }}</a></h1>
-
       <a href="{{ site.baseurl }}{{ asset.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
