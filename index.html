@@ -3,12 +3,12 @@ layout: default
 ---
 <div class="posts">
 
-  {% for post in site.assets %}
-    <article class="post">
+  {% for asset in site.assets %}
+    <article class="asset">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+      <h1><a href="{{ site.baseurl }}{{ asset.url }}">{{ asset.title }}</a></h1>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <a href="{{ site.baseurl }}{{ asset.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
 
@@ -38,6 +38,9 @@ layout: default
 </section id="portfolio" class="portfolio">
 
 
+
+<!--
+
 <div class="posts">
 
   {% for asset in site.assets %}
@@ -50,8 +53,7 @@ layout: default
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 	</article>
 	{% endfor %}
-
-
+ -->   
 
 
 
