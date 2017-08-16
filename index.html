@@ -2,7 +2,22 @@
 layout: default
 ---
 <div class="posts">
+ $files = scandir($assets);
 
+ foreach($files as $file) {
+
+        <article class="post">
+		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ asset.title }}</a></h1>
+		<div class="entry">
+        {{ asset.excerpt }}
+      </div>
+        }
+
+
+ 
+ 
+ 
+ <!--
   {% for asset in site.assets %}
 	<article class="post">
 		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ asset.title }}</a></h1>
@@ -14,7 +29,7 @@ layout: default
 	</article>
 	{% endfor %}
 	</div>
-
+ -->
 
 
 
