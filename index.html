@@ -4,14 +4,16 @@ layout: default
 <div class="posts">
 
   {% for asset in site.assets %}
-    <article class="asset">
-      <a href="{{ site.baseurl }}{{ asset.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+	<article class="post">
+		<h1><a href="{{ site.baseurl }}{{ post.url }}">{{ asset.title }}</a></h1>
+		<div class="entry">
+        {{ asset.excerpt }}
+      </div>
 
-	
-	
-</div>
+		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+	</article>
+	{% endfor %}
+	</div>
 
 
 
@@ -51,6 +53,8 @@ layout: default
 		<a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
 	</article>
 	{% endfor %}
+	</div>
+
  -->   
 
 
@@ -70,6 +74,9 @@ layout: default
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
     </article>
   {% endfor %}
+  
+  </div>
+
  -->   
 	
 	
